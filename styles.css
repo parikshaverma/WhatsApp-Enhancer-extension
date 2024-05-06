@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  #contacts-list {
+    margin-top: 20px;
+  }
+  
+  .contact {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .unread {
+    color: red;
+  }
+
+  .awaiting {
+    color: red;
+  }
+
+  .needs_reply {
+    color: red;
+  }
+  

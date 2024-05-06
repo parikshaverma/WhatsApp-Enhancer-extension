@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Extension</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <h1>WhatsApp Enhancer</h1>
+  <div>
+    <label for="filter">Filter:</label>
+    <select id="filter">
+      <option value="all">All</option>
+      <option value="unread">Unread</option>
+      <option value="awaiting">Awaiting Reply</option>
+      <option value="needs_reply">Needs Reply</option>
+    </select>
+  </div>
+  <div>
+    <label for="custom-filter">Custom Filter:</label>
+    <input type="text" id="custom-filter">
+    <button id="add-filter-btn">Add Filter</button>
+  </div>
+  <div id="contacts-list">
+    <!-- Contacts will be dynamically added here -->
+  </div>
+</body>
+</html>
